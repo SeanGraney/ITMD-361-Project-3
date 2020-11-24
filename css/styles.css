@@ -406,34 +406,33 @@ ol{
   background-color: #ccc;
   margin: 30px auto;
 }
-/* 34 5px */
+/* 345px */
 @media screen and (max-width: 21.5625em) {
   .body3 img{
-    width: 150px;
-    height: 50px;
+    width: 250px;
+    height: 100px;
+    padding-top: 5%;
   }
   .horz {
     left: 0;
   }
   .horz ul li{
-    margin: 0;
+    margin:0;
     padding: 0;
   }
   .horz ul li a{
-    height: 15px;
-    width: 75px;
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
   }
 }
 
 /* 650px */
-@media  screen and (max-width: 40.625em){
+@media  screen and (min-width: 21.5627em){
   .body3 img{
     width: 550px;
     height: 400px;
-  }
-  .chicago{
-    width: 650px;
-    margin-right: 0;
+    padding-top: 5%;
   }
   .horz {
     left: 0;
@@ -449,7 +448,7 @@ ol{
   }
 }
 /* larger */
-@media  screen and (min-width: 40.626em){
+@media screen and (min-width: 40.626em){
   .horz{
     position: relative;
     padding-top: 2%;

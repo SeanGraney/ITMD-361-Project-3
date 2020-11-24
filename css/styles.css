@@ -63,6 +63,7 @@ ol{
 }
 .body3 {
   background-color: #970fff;
+  overflow-x: hidden;
 }
 .chicago {
   position: absolute;
@@ -396,6 +397,9 @@ ol{
   margin:0 auto;
   overflow: hidden;
 }
+#wrapper4 {
+  overflow: hidden;
+}
 #canvas {
   position: relative;
   top: 15px;
@@ -403,11 +407,47 @@ ol{
   height: 600px;
   background-color: #ccc;
   margin: 30px auto;
+}
+/* 34 5px */
+@media screen and (max-width: 21.5625em) {
+  .body3 img{
+    width: 150px;
+    height: 50px;
   }
-  #legend {
-    font-family: Arial, sans-serif;
-    background: #fff;
-    padding: 10px;
-    margin: 10px;
-    border: 3px solid #000;
+  .horz {
+    left: 0;
   }
+  .horz ul li{
+    margin: 0;
+    padding: 0;
+  }
+  .horz ul li a{
+    height: 15px;
+    width: 75px;
+  }
+}
+
+/* 650px */
+@media  screen and (max-width: 40.625em){
+  .body3 img{
+    width: 550px;
+    height: 400px;
+  }
+  .chicago{
+    width: 650px;
+    margin-right: 0;
+  }
+  .horz {
+    left: 0;
+  }
+  .horz ul li{
+    margin:0;
+    padding: 0;
+  }
+  .horz ul li a{
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+  }
+
+}

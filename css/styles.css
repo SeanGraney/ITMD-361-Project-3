@@ -65,15 +65,10 @@ ol{
   background-color: #970fff;
   overflow-x: hidden;
 }
-.chicago {
-  position: absolute;
-  height: 90%;
-  top: 0%;
-  left: 0;
-  margin: 0;
-
-  width: 100%;
-  z-index: -1;
+.chicago{
+  background-image: url("../images/chicago.jpg");
+  background-size: cover;
+  background-position: center
 }
 .cloud {
   position: absolute;
@@ -324,6 +319,9 @@ ol{
 .submit {
   color: #ffb3d9;
   background-color: #660198;
+}
+.titlebox {
+  padding-bottom: 10%;;
 }
 .title {
   position: relative;

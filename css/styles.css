@@ -387,3 +387,27 @@ ol{
   margin-right: 1%;
   margin-left: 1%;
 }
+#wrapper3 {
+  position: relative;
+  top: 50px;
+  width: 950px;
+  height: 700px;
+  background-color: #ffb3d9;
+  margin:0 auto;
+  overflow: hidden;
+}
+#canvas {
+  position: relative;
+  top: 15px;
+  width: 800px;
+  height: 600px;
+  background-color: #ccc;
+  margin: 30px auto;
+  }
+  #legend {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #000;
+  }

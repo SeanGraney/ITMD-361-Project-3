@@ -60,6 +60,7 @@ ol{
 }
 .body1 {
   background-color: #BFEFFF;
+  overflow-x: hidden;
 }
 .body3 {
   background-color: #970fff;
@@ -447,6 +448,9 @@ ol{
     height: 100px;
     padding-top: 5%;
   }
+  .body3 ol li{
+    padding: 1%;
+  }
   .horz {
     left: 0;
   }
@@ -468,6 +472,9 @@ ol{
     height: 400px;
     padding-top: 5%;
   }
+  .body3 ol li{
+    padding: 2%;
+  }
   .horz {
     left: 0;
   }
@@ -483,6 +490,14 @@ ol{
 }
 /* larger */
 @media screen and (min-width: 40.626em){
+  .body3 img{
+    width: 1100px;
+    height: 850px;
+    padding-top: 5%;
+  }
+  .body3 ol li{
+    padding: 2%;
+  }
   .horz{
     position: relative;
     padding-top: 2%;

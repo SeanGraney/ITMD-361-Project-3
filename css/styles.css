@@ -202,6 +202,26 @@ ol{
   padding-bottom: 20px;
   background-color: #4b0082;
 }
+.mapGuide {
+  position: relative;
+  left: 5%;
+  float: left;
+  width: 25%;
+  margin-top: 5%;
+  background-color: white;
+}
+.mapGuide li {
+  text-align: center;
+  padding: 5% 0 5% 0;
+  margin-right: 10%;
+  font-size: 105%;
+}
+.mapGuide ol{
+  list-style-type: none;
+}
+.mapsb {
+  overflow-x: hidden;
+}
 .me {
   margin-top: 200px;
   border-radius: 50%;
@@ -388,11 +408,11 @@ ol{
 }
 #wrapper3 {
   position: relative;
-  top: 50px;
-  width: 950px;
-  height: 700px;
+  left: 10%;
+  width: 60%;
+  height: 550px;
   background-color: #ffb3d9;
-  margin:0 auto;
+  margin:0;
   overflow: hidden;
 }
 #wrapper4 {
@@ -400,9 +420,9 @@ ol{
 }
 #canvas {
   position: relative;
-  top: 15px;
-  width: 800px;
-  height: 600px;
+  top: 3%;
+  width: 40%;
+  height: 50%;
   background-color: #ccc;
   margin: 30px auto;
 }

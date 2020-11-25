@@ -220,7 +220,7 @@ ol{
   padding: 5% 0 5% 0;
   margin-right: 10%;
   font-size: 105%;
-  color: #FF69B4;
+  color: pink;
 }
 .mapGuide ol{
   list-style-type: none;
@@ -387,6 +387,12 @@ ol{
 .title6 {
   color: #db7093;
 }
+.title7 {
+  text-shadow: 2px 2px 5px black;
+  font-size: 200%;
+  color: purple;
+  font-family: 'Turret Road', cursive;
+}
 .top {
   height: 1100px;
   background-color: #BFEFFF;
@@ -480,7 +486,7 @@ ol{
   .horz{
     position: relative;
     padding-top: 2%;
-    left: 25%;
+    left: 17%;
     font-family: 'Turret Road', cursive;
     z-index: 5;
     }

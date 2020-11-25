@@ -207,14 +207,20 @@ ol{
   left: 5%;
   float: left;
   width: 25%;
-  margin-top: 5%;
+  margin-top: 2.5%;
   background-color: white;
+  border: 10px groove purple;
+  border-radius: 20px;
+}
+.mapGuide h2{
+  color: purple;
 }
 .mapGuide li {
   text-align: center;
   padding: 5% 0 5% 0;
   margin-right: 10%;
   font-size: 105%;
+  color: #FF69B4;
 }
 .mapGuide ol{
   list-style-type: none;
@@ -411,7 +417,9 @@ ol{
   left: 10%;
   width: 60%;
   height: 550px;
-  background-color: #ffb3d9;
+  background-color: pink;
+  border: 10px groove purple;
+  border-radius: 20px;
   margin:0;
   overflow: hidden;
 }
@@ -421,8 +429,8 @@ ol{
 #canvas {
   position: relative;
   top: 3%;
-  width: 40%;
-  height: 50%;
+  width: 80%;
+  height: 450px;
   background-color: #ccc;
   margin: 30px auto;
 }

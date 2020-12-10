@@ -77,3 +77,11 @@ function placeMarkerAndPanTo(latLng, myMap) {
   myMap.panTo(latLng);
 }
 google.maps.event.addDomListener(window, 'load', init);
+
+$(function () {
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    slideWidth: 600
+  });
+});
